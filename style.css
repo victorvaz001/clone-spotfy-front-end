@@ -6,7 +6,7 @@ h1{
     color: #fff;
 }
 
-.sidebar_navigation{
+.sidebar__navigation{
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16;
@@ -46,4 +46,17 @@ h1{
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sns", sans-serif;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
 }
